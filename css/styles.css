@@ -1,0 +1,197 @@
+/***********************  Homepage Styling *******************/
+.homepage {
+    background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Oswald', sans-serif;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    animation: slider 5s linear 2s infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+}
+  
+@keyframes slider {
+    0% {
+       background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
+     }
+  
+    25% {
+       background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/3.jpg');
+    }
+  
+    50% {
+       background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.493)), url('../assets/4.jpg');
+    }
+  
+    100% {
+        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.493)), url('../assets/5.jpg');
+    }
+}
+
+/***********************  Navbar Section *******************/
+nav .navbar-brand {
+    color: #ff9a76 !important;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+  
+nav .nav-link {
+    color: #0f2453 !important;
+    margin: 0 10px;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
+
+/***********************  Header Section *******************/
+#header {
+    height: 550px;
+    padding: 30px;
+    text-align: center;
+}
+ 
+#header h1 {
+    color: #ffeadb;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 20%;
+}
+ 
+#header p {
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+ 
+#header .btn {
+    border: 1px solid #ff9a76;
+    border-radius: 50px;
+}
+ 
+#header .btn:hover {
+    background: #ff9a76;
+    color: #fff;
+}
+ 
+#header .btn a {
+    text-decoration: none;
+    color: #fff;
+}
+ 
+@media only screen and (max-width: 700px) {
+    #header h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #header h1 {
+      font-size: 2.3rem;
+      margin: 0;
+      margin-top: 9%;
+    }
+}
+
+/***********************  About Section *******************/
+#about {
+    width: 100%;
+    height: auto;
+    background-color: #ffeadb;
+    border-radius: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #0f2453;
+    font-weight: 300;
+}
+
+#about .btn {
+    border: 1px solid #ff9a76;
+    border-radius: 50px;
+}
+ 
+#about .btn:hover {
+    background: #ff9a76;
+    color: #fff;
+}
+
+#about .btn a:hover {
+    color: #fff;
+}
+ 
+#about .btn a {
+    text-decoration: none;
+    color: #ff9a76;
+}
+
+.aboutLeft, .aboutRight {
+    background-color: #fff;
+    border: 1px solid #ffeadb;
+    border-radius: 50px;
+}
+
+/***********************  Enroll Section *******************/
+#enroll {
+    color: #ffeadb;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#enroll input {
+    background: transparent !important;
+    border: 1px solid #fff !important;
+    border-radius: 0px !important;
+    letter-spacing: 3px !important;
+    margin: 40px auto;
+    width: 80% !important;
+}
+
+#enroll ::placeholder {
+    color: #ffeadb !important;
+    font-weight: 200 !important;
+    opacity: 0.4 !important;
+}
+
+#enroll input[type=text] {
+    color: #fff !important;
+}
+
+/***********************  Team Section *******************/
+#team {
+    width: 100%;
+    height: 500px;
+    background-color: #ffeadb;
+    text-align: center;
+}
+
+/***********************  Footer Section *******************/
+#footer {
+    color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+#footer i {
+    margin: auto 10px 15px;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
