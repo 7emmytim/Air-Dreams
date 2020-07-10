@@ -128,14 +128,23 @@ nav .nav-link {
 #about {
     width: 100%;
     height: auto;
-    background-color: #ffeadb;
-    padding: 50px;
+    /* background-color: #ffeadb; */
+    margin-top: 0;
+    padding: 0 50px 0;
     text-align: center;
 }
 
-#about h2 {
+#about h3 {
     color: #0f2453;
-    font-weight: 300;
+    color: #ff9a76;
+    font-weight: 400;
+}
+
+#about p {
+    font: 1rem;
+    font-weight: 400;
+    color: black;
+    color: #fff;
 }
 
 #about .btn {
@@ -158,8 +167,9 @@ nav .nav-link {
 }
 
 .aboutLeft, .aboutRight {
-    background-color: #fff;
-    border: 1px solid #ffeadb;
+    background-color: #ffeadb;
+    background: transparent;
+    border: 1px solid #ff9a76;
     border-radius: 50px;
 }
 
@@ -194,7 +204,6 @@ nav .nav-link {
 #team {
     width: 100%;
     height: 500px;
-    background-color: #ffeadb;
     text-align: center;
 }
 
