@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <script src="https://kit.fontawesome.com/7df572097f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     </div>
     <!---------------------- Navbar Section ----------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Air Dreams</a>
+      <a class="navbar-brand" href="#">AirDream</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -65,41 +65,49 @@
     </section>
 
     <!---------------------- About Section ----------------------->
-    <section id="about" class="container">
+
+    <section id="about" class="container-fluid px-1">
+      <h3>About Us</h3>
       <div class="row">
-
-        <div class="col-lg-1"></div>
-
-        <div class="col-lg-4 aboutLeft px-5 py-5">
-          <h3>ABOUT US</h3>
-          <p>AIR DREAMS provides you with trampolining service as we have different facilities to help you accomplish
-            your air flipping desires. <br>
-            AIR DREAMS SCHOOL consists of professional trampolinists and gymnasts, students who wish to achieve
-            greatness by representing their state and
-            country in international competitions like olympics and All African games. To enroll in this school, click
-            the Enroll now button. <br>
-            <button type="button" class="btn btn-sm mt-3" data-toggle="modal" data-target="#exampleModalLong">
-              <a href="#enroll">Enroll Now</a>
-            </button>
-          </p>
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem; height: 420px;">
+            <img src="./assets/8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Airdreams</h5>
+              <p class="card-text">We provide you with trampolining service as we have different facilities to help you
+                accomplish your air flipping desires.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="col-lg-2 mb-3 aboutCenter">
-          <!-- target -->
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem; height: 420px;">
+            <img src="./assets/9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Airdreams School</h5>
+              <p class="card-text">Our school consists of professional trampolinists and gymnasts, students who wish to
+                achieve greatness
+                by representing their state and country in international competitions like olympics and All African
+                games.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="col-lg-4 aboutRight px-5 py-5">
-          <h3>VISION STATEMENT</h3>
-          <p>Phenomenal global transformation in all ramifications.</p>
-          <h3>MISSION STATEMENT</h3>
-          <p>To birth the air-driven potentials of the average man.</p>
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem; height: 420px;">
+            <img src="./assets/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vision & Mission Statements</h5>
+              <p class="card-text">Phenomenal global transformation in all ramifications. <br> 
+                To birth the air-drivenpotentials of the average man.</p>
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-1"></div>
 
       </div>
     </section>
-
     <!---------------------- Enroll Section ----------------------->
     <section id="enroll" class="container-fluid mt-3">
 
@@ -107,11 +115,12 @@
 
         <div class="col-md-6">
           <h2 class="mt-5">Enroll Now</h2>
-          <form>
+          <form action="./payment.html" method="POST">
             <input type="text" class="form-control" placeholder="First Name">
             <input type="text" class="form-control" placeholder="Surname">
             <input type="number" class="form-control" placeholder="Age">
             <input type="text" class="form-control" placeholder="Address">
+            <button type="submit" class="btn">Make payment</button>
           </form>
         </div>
 
@@ -124,7 +133,8 @@
     </section>
 
     <!---------------------- Team Section ----------------------->
-    <section id="team" class="container">
+    <section id="team" class="container-fluid mt-5">
+      <h3 class="py-5">Our Team</h3>
 
     </section>
 
@@ -132,16 +142,18 @@
     <section id="footer" class="container-fluid">
 
       <div>
-        <i class="fab fa-twitter fa-sm"></i>
+        <i class="fa fa-twitter fa-sm"></i>
         <i class="fa fa-facebook fa-sm"></i>
-        <i class="fab fa-instagram fa-sm"></i>
-        <i class="fas fa-envelope fa-sm"></i>
+        <i class="fa fa-instagram fa-sm"></i>
+        <i class="fa fa-envelope fa-sm"></i>
       </div>
       <p>© Copyright 2020 AirDreams.</p>
 
     </section>
   </div>
 
+
+  <script src="./scripts/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
