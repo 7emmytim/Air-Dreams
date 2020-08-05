@@ -4,6 +4,18 @@
 }
 
 .homepage {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Oswald', sans-serif;
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+/* .homepage {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,48 +29,53 @@
 
 @keyframes slide {
     0% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/1.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/1.jpg');
     }
 
     20% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/1.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/1.jpg');
     }
+
     20.01% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/3.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/3.jpg');
     }
 
     40% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/3.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/3.jpg');
     }
+
     40.01% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/4.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/4.jpg');
     }
 
     60% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/4.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/4.jpg');
     }
+
     60.01% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/5.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/5.jpg');
     }
 
     80% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/5.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/5.jpg');
     }
+
     80.01% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
     }
 
     100% {
-        background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
     }
-}
+} */
+
 /***********************  Navbar Section *******************/
 nav .navbar-brand {
     color: #ff9a76 !important;
-    font-size: 1.7rem;
-    font-weight: 900;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
-  
+
 nav .nav-link {
     color: #0f2453 !important;
     margin: 0 10px;
@@ -72,7 +89,7 @@ nav .nav-link {
     padding: 30px;
     text-align: center;
 }
- 
+
 #header h1 {
     color: #ffeadb;
     font-size: 3.5rem;
@@ -80,28 +97,29 @@ nav .nav-link {
     letter-spacing: 2px;
     margin-top: 20%;
 }
- 
+
 #header p {
     color: #fff;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     margin-top: 20px;
 }
- 
+
 #header .btn {
     border: 1px solid #ff9a76;
     border-radius: 50px;
 }
- 
+
 #header .btn:hover {
     background: #ff9a76;
     color: #fff;
 }
- 
+
 #header .btn a {
     text-decoration: none;
     color: #fff;
 }
- 
+
 @media only screen and (max-width: 700px) {
     #header h1 {
         font-size: 3.2rem;
@@ -110,67 +128,45 @@ nav .nav-link {
 
 @media only screen and (max-width: 400px) {
     #header h1 {
-      font-size: 2.5rem;
-      margin: 0;
-      margin-top: 15%;
+        font-size: 2.5rem;
+        margin: 0;
+        margin-top: 15%;
     }
 }
 
 @media only screen and (max-width: 330px) {
     #header h1 {
-      font-size: 2.3rem;
-      margin: 0;
-      margin-top: 9%;
+        font-size: 2.3rem;
+        margin: 0;
+        margin-top: 9%;
     }
 }
 
 /***********************  About Section *******************/
 #about {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
     height: auto;
-    /* background-color: #ffeadb; */
-    margin-top: 0;
-    padding: 0 50px 0;
+    background-color: #fff;
     text-align: center;
+    padding: 50px 0;
 }
 
 #about h3 {
     color: #0f2453;
     color: #ff9a76;
-    font-weight: 400;
+    font-size: 2.5rem;
+    font-weight: 500;
 }
 
 #about p {
-    font: 1rem;
-    font-weight: 400;
-    color: black;
-    color: #fff;
+    font: 0.7rem;
+    font-weight: 200;
+    color: gray;
 }
 
-#about .btn {
-    border: 1px solid #ff9a76;
-    border-radius: 50px;
-}
- 
-#about .btn:hover {
-    background: #ff9a76;
-    color: #fff;
-}
-
-#about .btn a:hover {
-    color: #fff;
-}
- 
-#about .btn a {
-    text-decoration: none;
-    color: #ff9a76;
-}
-
-.aboutLeft, .aboutRight {
-    background-color: #ffeadb;
-    background: transparent;
-    border: 1px solid #ff9a76;
-    border-radius: 50px;
+#about .card {
+    margin: 30px auto;
 }
 
 /***********************  Enroll Section *******************/
@@ -200,8 +196,19 @@ nav .nav-link {
     color: #fff !important;
 }
 
+#enroll .btn {
+    border: 1px solid #ff9a76;
+    border-radius: 50px;
+    color: #fff;
+}
+
+#enroll .btn:hover {
+    background: #ff9a76;
+}
+
 /***********************  Team Section *******************/
 #team {
+    background-color: #fff;
     width: 100%;
     height: 500px;
     text-align: center;
@@ -223,3 +230,4 @@ nav .nav-link {
 #footer p {
     color: #8f8f8f;
 }
+
