@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
 
 .homepage {
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
+    /* background: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: rgb(9, 9, 58);
+    /* background-color: #251f44; */
     background-position: center;
     font-family: 'Oswald', sans-serif;
     height: auto;
@@ -16,9 +19,9 @@
 /***********************  Navbar Section *******************/
 nav .navbar-brand {
     color: #ff9a76 !important;
-    font-family: 'Antic Slab', serif;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 nav .nav-link {
