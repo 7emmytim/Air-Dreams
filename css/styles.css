@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
 
 .row {
     margin: 0;
@@ -9,7 +10,7 @@
 .homepage {
     background-color: rgb(9, 9, 58);
     background-color: #251f44;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: auto;
     width: 100%;
     padding: 0;
@@ -18,16 +19,15 @@
 /***********************  Navbar Section *******************/
 nav .navbar-brand {
     color: #ff9a76 !important;
-    /* font-family: 'Recursive', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 nav .nav-link {
     color: #0f2453 !important;
     margin: 0 5px;
     font-size: 0.9rem;
-    /* font-family: 'Antic Slab', serif; */
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -35,7 +35,6 @@ nav .nav-link {
 /***********************  Header Section *******************/
 #header {
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
-    /* background: linear-gradient(360deg, rgba(9, 9, 58, 0.7), rgba(9, 9, 58, 0.7)), url('../assets/6.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -46,6 +45,7 @@ nav .nav-link {
 
 #header h1 {
     color: #ffeadb;
+    font-family: 'Oswald', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
     letter-spacing: 2px;
@@ -64,6 +64,7 @@ nav .nav-link {
     border: 1px solid #ff9a76;
     border-radius: 50px;
     color: #fff;
+    font-family: 'Oswald', sans-serif;
 }
 
 #header .btn:hover {
@@ -104,7 +105,7 @@ nav .nav-link {
 #about h3 {
     color: #ff9a76;
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 3px;
 }
 
@@ -117,8 +118,8 @@ nav .nav-link {
 }
 
 #about h5 {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
