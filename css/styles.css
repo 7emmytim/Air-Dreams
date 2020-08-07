@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;600;700;900&display=swap');
 
 .row {
     margin: 0;
@@ -20,16 +20,15 @@
 nav .navbar-brand {
     color: #ff9a76 !important;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 nav .nav-link {
     color: #0f2453 !important;
     margin: 0 5px;
     font-size: 0.9rem;
-    font-weight: 500;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 /***********************  Header Section *******************/
