@@ -30,13 +30,13 @@
             <a class="nav-link" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">OUR TEAM</a>
+            <a class="nav-link" href="#team">OUR TEAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#enroll">CONTACT US</a>
+            <a class="nav-link" href="#contact">CONTACT US</a>
           </li>
         </ul>
       </div>
@@ -66,7 +66,7 @@
       <h3>About Us</h3>
       <div class="row">
         <div class="col-lg-4 p-0">
-          <div class="card" style="width: 17.8rem; height: 420px;">
+          <div class="card" style="width: 18rem; height: 420px;">
             <img src="./assets/8.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">AIRDREAMS</h5>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="col-lg-4 p-0">
-          <div class="card" style="width: 17.8rem; height: 420px;">
+          <div class="card" style="width: 18rem; height: 420px;">
             <img src="./assets/3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">AIRDREAMS SCHOOL</h5>
@@ -92,7 +92,7 @@
         </div>
 
         <div class="col-lg-4 p-0">
-          <div class="card" style="width: 17.8rem; height: 420px;">
+          <div class="card" style="width: 18rem; height: 420px;">
             <img src="./assets/5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">VISION STATEMENT</h5>
@@ -106,23 +106,29 @@
       </div>
     </section>
     <!---------------------- Enroll Section ----------------------->
-    <section id="enroll" class="container-fluid mt-3">
+    <section id="enroll-section" class="container-fluid mt-3">
 
       <div class="row py-5">
 
-        <div class="col-md-6">
+        <div class="col-lg-6" id="enroll">
           <h2>Enroll Now</h2>
           <form action="./payment.html" method="POST">
             <input type="text" class="form-control" placeholder="First Name">
             <input type="text" class="form-control" placeholder="Surname">
             <input type="number" class="form-control" placeholder="Age">
             <input type="text" class="form-control" placeholder="Address">
-            <a href="#" class="btn mb-5" role="button" aria-pressed="true">Make payment</a>
+            <a href="./payment.html" class="btn" role="button" aria-pressed="true">Make payment</a>
           </form>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-lg-6" id="contact">
           <h2>Contact Us</h2>
+          <h5>Phone <i class="fa fa-phone fa-sm"></i></h5>
+          <p>09025993113</p>
+          <h5>Email <i class="fa fa-envelope fa-sm"></i></h5>
+          <p>airdreamslimited@airdreams.com</p>
+          <h5>Address <i class="fa fa-home fa-sm"></i></h5>
+          <p>Behind Kajola, Along Odoolu, Abuja, Nigeria.</p>
         </div>
 
       </div>
