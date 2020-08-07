@@ -7,14 +7,8 @@
 }
 
 .homepage {
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
-    /* background-image: url('../assets/6.jpg'); */
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-color: rgb(9, 9, 58); */
-    /* background-color: #251f44; */
-    background-position: center;
+    background-color: rgb(9, 9, 58);
+    background-color: #251f44;
     font-family: 'Oswald', sans-serif;
     height: auto;
     width: 100%;
@@ -24,7 +18,7 @@
 /***********************  Navbar Section *******************/
 nav .navbar-brand {
     color: #ff9a76 !important;
-    font-family: 'Recursive', sans-serif;
+    /* font-family: 'Recursive', sans-serif; */
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -33,13 +27,18 @@ nav .nav-link {
     color: #0f2453 !important;
     margin: 0 5px;
     font-size: 0.9rem;
-    font-family: 'Antic Slab', serif;
+    /* font-family: 'Antic Slab', serif; */
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 /***********************  Header Section *******************/
 #header {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9), rgba(90, 68, 68, 0.5)), url('../assets/6.jpg');
+    /* background: linear-gradient(360deg, rgba(9, 9, 58, 0.7), rgba(9, 9, 58, 0.7)), url('../assets/6.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 550px;
     padding: 20px;
     text-align: center;
@@ -168,7 +167,7 @@ nav .nav-link {
 #team {
     background-color: #fff;
     width: 100%;
-    height: 500px;
+    height: auto;
     text-align: center;
 }
 
