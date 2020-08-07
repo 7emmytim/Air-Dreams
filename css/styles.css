@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel:wght@300;400;700;800&display=swap');
 
 .row {
     margin: 0;
@@ -19,15 +19,14 @@
 /***********************  Navbar Section *******************/
 nav .navbar-brand {
     color: #ff9a76 !important;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 1.7rem;
     font-weight: 600;
+    letter-spacing: 5px;
 }
 
 nav .nav-item {
-    border: 1px solid rgba(0, 0, 0, .125);
-    margin: 10px;
-    border-radius: 10px;
+    margin: 5px 10px;
     text-align: center;
 }
 
@@ -164,7 +163,6 @@ nav .nav-link {
     border: 1px solid #ff9a76;
     border-radius: 50px;
     color: #fff;
-    margin-bottom: 100px;
 }
 
 #enroll .btn:hover {
@@ -177,7 +175,7 @@ nav .nav-link {
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 2px;
-    margin-top: 45px;
+    margin-top: 60px;
 }
 
 #contact p {
