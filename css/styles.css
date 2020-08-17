@@ -104,10 +104,10 @@ nav .nav-link {
     padding: 50px 0;
 }
 
-#about h3 {
+#about h2 {
     color: #ff9a76;
-    font-size: 2.4rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 700;
     letter-spacing: 3px;
 }
 
@@ -130,11 +130,8 @@ nav .nav-link {
 }
 
 /***********************  Enroll Section *******************/
-#enroll-section {
-    background-color: #251f44;
+#enroll {
     background-color: #ff9a76;
-    color: #251f44;
-    width: 100%;
     height: auto;
     text-align: center;
 }
@@ -149,7 +146,6 @@ nav .nav-link {
     background: transparent !important;
     border: 1px solid #fff !important;
     border-radius: 0px !important;
-    letter-spacing: 3px !important;
     margin: 40px auto;
     width: 90% !important;
 }
@@ -157,6 +153,7 @@ nav .nav-link {
 #enroll ::placeholder {
     color: #ffeadb !important;
     font-weight: 200 !important;
+    letter-spacing: 3px !important;
     opacity: 0.4 !important;
 }
 
@@ -177,27 +174,18 @@ nav .nav-link {
     color: #ff9a76;
 }
 
-/********************** Contact Section ***************************************/
-#contact h5 {
-    color: #ffeadb;
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-top: 60px;
-}
-
-#contact p {
-    font-size: 0.8rem;
-    font-weight: 200;
-    color: rgba(255, 255, 255, 0.505);
-}
-
 /***********************  Team Section *******************/
 #team {
     background-color: #fff;
     width: 100%;
     height: auto;
     text-align: center;
+}
+
+#team h2 {
+    color: #ff9a76;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 #team .carousel-caption {
@@ -222,4 +210,9 @@ nav .nav-link {
 #footer p {
     color: #ffeadb;
     font-size: 0.9rem;
+}
+
+#footer span {
+    color: #ffeadb;
+    font-size: 0.8rem;
 }

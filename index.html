@@ -14,15 +14,12 @@
 <body>
 
   <div class="homepage container-fluid">
-    <div class="load">
-    </div>
     <!---------------------- Navbar Section ----------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 px-3 sticky-top">
       <a class="navbar-brand" href="#">Air Dreams</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" style="color: black !important;"></span>
-        <!-- <i class="fa fa-angle-double-down"></i> -->
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,7 +34,7 @@
             <a class="nav-link" href="#team">OUR TEAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT US</a>
+            <a class="nav-link" href="#footer">CONTACT US</a>
           </li>
         </ul>
       </div>
@@ -52,7 +49,6 @@
         <div class="col-md-6">
           <h1>Standard Trampolining, Recreational Services.</h1>
           <p>AirDreams provides the equipments and services for you to have all the fun.</p>
-          <!-- Button connected to footer -->
           <a href="#enroll" class="btn btn-lg mt-4" role="button" aria-pressed="true">Enroll Now</a>
         </div>
 
@@ -64,7 +60,7 @@
     <!---------------------- About Section ----------------------->
 
     <section id="about" class="container-fluid">
-      <h3 class="pt-3">About Us</h3>
+      <h2 class="pt-3">About Us</h2>
       <div class="row">
         <div class="col-lg-4 p-0">
           <div class="card" style="width: 55vh; height: 430px;">
@@ -107,13 +103,14 @@
       </div>
     </section>
     <!---------------------- Enroll Section ----------------------->
-    <section id="enroll-section" class="container-fluid mt-3">
+    <section id="enroll" class="container-fluid mt-5">
 
       <div class="row py-5">
 
-        <div class="col-lg-6" id="enroll">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
           <h2>Enroll Now</h2>
-          <form action="./payment.html" method="POST">
+          <form>
             <input type="text" class="form-control" placeholder="First Name">
             <input type="text" class="form-control" placeholder="Surname">
             <input type="number" class="form-control" placeholder="Age">
@@ -121,24 +118,14 @@
             <a href="./payment.html" class="btn mb-3" role="button" aria-pressed="true">Make payment</a>
           </form>
         </div>
-
-        <div class="col-lg-6" id="contact">
-          <!-- <h2>Contact Us</h2> -->
-          <!-- <h5>Phone <i class="fa fa-phone fa-sm"></i></h5>
-          <p>09025993113</p>
-          <h5>Email <i class="fa fa-envelope fa-sm"></i></h5>
-          <p>airdreamslimited@airdreams.com</p>
-          <h5>Address <i class="fa fa-home fa-sm"></i></h5>
-          <p>Behind Kajola, Along Odoolu, Abuja, Nigeria.</p> -->
-        </div>
-
+        <div class="col-lg-3"></div>
       </div>
 
     </section>
 
     <!---------------------- Team Section ----------------------->
     <section id="team" class="container-fluid py-5">
-      <h3>Our Team</h3>
+      <h2>Our Team</h2>
 
       <div class="row mt-4">
         <div class="col-lg-4"></div>
@@ -235,6 +222,14 @@
         <i class="fa fa-envelope fa-sm"></i>
       </div>
       <p>© Copyright 2020 AirDreams.</p>
+
+      <!--       
+          <i class="fa fa-phone fa-sm"></i>
+          <span>09025993113</span> <br>
+          <i class="fa fa-envelope fa-sm"></i>
+          <span>airdreamslimited@airdreams.com</span> <br>
+          <i class="fa fa-home fa-sm"></i>
+          <span>Behind Kajola, Along Odoolu, Abuja, Nigeria.</span> -->
 
     </section>
   </div>
