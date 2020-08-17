@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .row {
     margin: 0;
 }
 
 .homepage {
-    background-color: rgb(9, 9, 58);
-    background-color: #251f44;
     font-family: 'Open Sans', sans-serif;
     height: auto;
     width: 100%;
@@ -19,10 +17,9 @@
 /***********************  Navbar Section *******************/
 nav .navbar-brand {
     color: #ff9a76 !important;
-    font-family: 'Lovers Quarrel', cursive;
-    font-size: 1.7rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: 5px;
 }
 
 nav .nav-item {
@@ -134,10 +131,18 @@ nav .nav-link {
 
 /***********************  Enroll Section *******************/
 #enroll-section {
-    color: #ff9a76;
+    background-color: #251f44;
+    background-color: #ff9a76;
+    color: #251f44;
     width: 100%;
     height: auto;
     text-align: center;
+}
+
+#enroll h2 {
+    color: #ffeadb;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 #enroll input {
@@ -156,17 +161,20 @@ nav .nav-link {
 }
 
 #enroll input[type=text] {
-    color: #fff !important;
+    color: #251f44 !important;
 }
 
 #enroll .btn {
-    border: 1px solid #ff9a76;
+    border: 3px solid #fff;
+    background-color: #ffeadb;
     border-radius: 50px;
-    color: #fff;
+    color: #ff9a76;
+    font-weight: 800 !important;
 }
 
 #enroll .btn:hover {
-    background: #ff9a76;
+    background: #fff;
+    color: #ff9a76;
 }
 
 /********************** Contact Section ***************************************/
@@ -198,6 +206,8 @@ nav .nav-link {
 
 /***********************  Footer Section *******************/
 #footer {
+    background-color: #251f44;
+    background-color: #ff9a76;
     color: #fff;
     width: 100%;
     height: auto;
@@ -210,5 +220,6 @@ nav .nav-link {
 }
 
 #footer p {
-    color: #8f8f8f;
+    color: #ffeadb;
+    font-size: 0.9rem;
 }
