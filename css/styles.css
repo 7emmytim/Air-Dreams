@@ -192,6 +192,10 @@ nav .nav-link {
     color: #0f2453;
 }
 
+#team img {
+    border-radius: 50%;
+}
+
 /***********************  Footer Section *******************/
 #footer {
     background-color: #251f44;
@@ -215,4 +219,32 @@ nav .nav-link {
 #footer span {
     color: #ffeadb;
     font-size: 0.8rem;
+}
+
+.payment-badge {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Antic Slab', serif;
+}
+
+#payment {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#payment .card {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#payment .card:hover {
+    transform: scale(1.1);
+}
+
+#payment .card-title {
+    color: #251f44;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+}
+
+#payment .card-title small {
+    font-size: 1.3rem;
 }
