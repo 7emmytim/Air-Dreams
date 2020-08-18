@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap');
 
 .row {
     margin: 0;
@@ -247,4 +248,20 @@ nav .nav-link {
 
 #payment .card-title small {
     font-size: 1.3rem;
+}
+
+#payment h4 {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#payment .btn {
+    border: 1px solid #251f44;
+    border-radius: 50px;
+    color: #251f44;
+    font-family: 'Oswald', sans-serif;
+}
+
+#payment .btn:hover {
+    background: #251f44;
+    color: #fff;
 }
