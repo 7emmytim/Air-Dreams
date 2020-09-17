@@ -306,7 +306,7 @@ nav .nav-link {
 
 .team .team_member h3 {
     color: #81c644;
-    font-size: 26px;
+    font-size: 1rem;
     margin-top: 50px;
 }
 
@@ -336,7 +336,7 @@ nav .nav-link {
 
 .rest_team {
     font-style: italic;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #ff9a76;
     text-decoration: none;
 }
